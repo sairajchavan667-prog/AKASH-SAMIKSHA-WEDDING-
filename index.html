@@ -136,7 +136,7 @@ background:radial-gradient(circle at 30% 20%,#9a3347,#6e1f2f 55%,#4a1120);box-sh
 <div class="nl mr rv"><div class="or">❀ ❀ ❀</div><p>श्री. विकास सुरेश माने<br>सौ. निकिता विकास माने</p><p>श्री. सागर बाबुराव सरोळकर (मामा)<br>सौ. रुपाली सागर सरोळकर</p><p>श्री. अमृत विजय सावंत (दाजी)<br>सौ. तेजस्विनी अमृत सावंत</p><p><b>छोटे निमंत्रक :</b>सानवी, अश्विता, पूर्वा, वीरा, काव्या, रितिक.</p><p><b>समस्त :</b>माने, शिवणे, सावंत, नाडवडेकर, सरोळकर, बिरंजे, कानोलकर, जावळे, खोराटे, चव्हाण, मोरे, खांडेकर, खोत, तांबेकर परिवार.</p></div><div class="fam pf rv">SURESH MANE & MANGAL MANE<br>SAHADEV SHIVNE & SHOBHA SHIVNE<br><span class="gold" style="font-size:20px">Akash & Samiksha</span></div></section>
 </main>
 <script>
-const PH=["photos/photo1.jpg","photos/photo2.jpg","photos/photo3.jpg","photos/photo4.jpg"],$=s=>document.querySelector(s),AD="मु.पो. चिमणे, ता. आजरा, जि. कोल्हापूर.";
+const PH=["photo1.jpg","photo2.jpg","photo3.jpg","photo4.jpg"],$=s=>document.querySelector(s),AD="मु.पो. चिमणे, ता. आजरा, जि. कोल्हापूर.";
 function rose(s,a,b){const c=document.createElement('canvas');c.width=c.height=s;const x=c.getContext('2d');x.translate(s/2,s/2);x.shadowColor='rgba(40,0,10,.35)';x.shadowBlur=s/30;
 for(let r=0;r<5;r++){const n=5+r%2,R=s*(.47-r*.08);for(let i=0;i<n;i++){x.save();x.rotate(i*6.283/n+r*.7);x.translate(0,-R*.52);const g=x.createRadialGradient(0,R*.2,2,0,0,R*.75);g.addColorStop(0,b);g.addColorStop(1,a);x.fillStyle=g;x.strokeStyle='rgba(70,0,20,.4)';x.lineWidth=1.5;x.beginPath();x.ellipse(0,0,R*.52,R*.62,0,0,6.283);x.fill();x.stroke();x.restore()}}
 x.fillStyle=a;x.beginPath();x.arc(0,0,s*.05,0,6.283);x.fill();return c.toDataURL()}
